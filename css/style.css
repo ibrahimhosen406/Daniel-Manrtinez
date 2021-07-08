@@ -1,0 +1,243 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,a,input,button,span,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*******************************
+ header section start from here
+ *******************************/
+ .header{
+ 	display: flex;
+ }
+.h-left{
+	background: #015761;
+	flex-basis: 50%;
+}
+.h-left ul li{
+	list-style: none;
+ 	display: inline-block;
+ 	margin: 0 12px;
+ 	padding: 0;
+}
+.h-left ul li a{
+	color: white;
+	cursor: pointer;
+}
+
+.h-left ul li a:hover{
+	color: yellow;
+}
+
+.h-right{
+	background: url('../image/img-1.png') no-repeat center top;
+	background-size: cover;
+	flex-basis: 49%;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+	
+}
+
+.h-left h3{
+	padding-left: 52px;
+	color: #d9cc51;
+}
+.h-left-1{
+	text-align: left;
+	padding: 90px 0 0 180px
+
+}
+
+.h-left-1 h1{
+	font-size: 80px;
+   margin: 0;
+	color: white;
+}
+
+.h-left-1 h4{
+	margin: 0;
+   color: #d9cc51;
+   font-size: 30px;
+}
+
+.h-left-1 p{
+	color: white;
+	margin: 0;
+}
+
+.box{
+	position: absolute;
+   height: 200px;
+   width: 36px;
+   background: yellow;
+   right: -7px;
+   top: 170px
+}
+
+ul .box li{
+	list-style: none;
+	text-align: center;
+	padding-top: 23px;
+
+}
+
+ul .box li a{
+	transition: 0.3s;
+}
+ul .box li a:hover{
+	transition: 0.3s;
+	color: red;
+}
+/*******************************
+    banner section CSS here
+ *******************************/
+
+.banner{
+	background: #f1f0f0;
+	text-align: center;
+}
+.b-text{
+	padding-bottom: 80px;
+}
+.b-text h1{
+	margin: 0;
+	padding-top: 30px;
+	color: #015761;
+	font-size: 40px;
+}
+.b-text p{
+	padding: 0 300px;
+	font-style: initial;
+	color: #434343;
+}
+
+.b-text button{
+	margin-top: 20px;
+	background: yellow;
+	padding: 18px 26px;
+	font-size: 20px;
+	border: none;
+	color: #146160;
+	cursor: pointer;
+}
+
+/*******************************
+   portfolio section CSS here
+ *******************************/
+.portfolio h1 , .f-item h1{
+	font-size: 65px;
+	color: #015761;
+	text-align: center;
+}
+.p-item{
+	background: url('../image/img-2.png') no-repeat center top;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+}
+
+.Features{
+	padding: 20px 0;
+}
+.portfolio h1{
+	text-align: center;
+	padding: 30px;
+}
+.f-item-1{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+.im-1{
+	size: 200px;
+}
+.f-item-1 img{
+	/*float: left;*/
+	width: 31%;
+	padding: 0 10px;
+}
+
+.item-2{
+	margin-top: 20px;
+}
+/*******************************
+   Features section CSS here
+ *******************************/
+
+
+
+
+
+
+ /*******************************
+   Footer section CSS here
+ *******************************/
+
+.Footer{
+	display: flex;
+}
+
+.f-right{
+	background: url('../image/img-9.png') no-repeat center top;
+	background-size: cover;
+	flex-basis: 50%;
+	max-width: 100%;
+	height: 100vh;
+}
+.f-left{
+	background: #015761;
+	flex-basis: 50%;
+	padding: 50px 0 0 180px
+}
+
+.fitem p ,h3{
+	margin: 0;
+	padding: 0;
+}
+.fitem{
+	padding-bottom: 20px;
+}
+
+.f-left h1{
+	color: #f7dc4f;
+   font-size: 85px;
+   padding: 0;
+   margin: 0;
+}
+
+.f-left h2{
+	padding-bottom: 20px;
+   margin: 0;
+   font-size: 40px;
+}
+.f-icon  li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 12px;
+}
+
+.f-icon  li a ,p,h3,h2{
+	color: white;
+}
+.last-item{
+	padding: 20px 0;
+	text-align: center;
+}
+
+.last-item h4{
+	font-weight: 300;
+}
