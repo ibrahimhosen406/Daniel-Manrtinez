@@ -26,6 +26,10 @@ h1,h2,h3,h4,h5,h6,a,input,button,span,p{
 	background: #015761;
 	flex-basis: 50%;
 }
+
+.h-left h3{
+	padding-top: 20px;
+}
 .h-left ul li{
 	list-style: none;
  	display: inline-block;
